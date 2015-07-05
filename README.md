@@ -1,4 +1,4 @@
-# travis-testbox-scaffold
+# TravisCI Testbox test runner skeleton
 
 [![Build Status](https://travis-ci.org/DominicWatson/travis-testbox-skeleton.svg?branch=master)](https://travis-ci.org/DominicWatson/travis-testbox-skeleton)
 
