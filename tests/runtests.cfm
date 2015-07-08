@@ -5,7 +5,8 @@
 	}
 
 	try {
-		testbox = new testbox.system.TestBox( options={}, reporter="text", directory={
+		reporter = cgi.server_protocol == "CLI/1.0" ? "text" : "simple";
+		testbox  = new testbox.system.TestBox( options={}, reporter=reporter, directory={
 			  recurse  = true
 			, mapping  = "tests"
 			, filter   = function( required path ){ return true; }
